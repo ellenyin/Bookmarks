@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans+Condensed:300');
+
+body{
+	background-color: #136290;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	border: 6px red dotted;
+	background-color: #E1E1E1;
+}
+/*.header{
+	background-color: blue;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 2em;
+}*/
+.jumbotron{
+	padding: 40px;
+}/*including siteName, siteUrl and h2*/
+
+.form-group{
+	padding: 40px;
+	font-size: 1.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}/*siteName and input box*/
+
+.form-control{
+	font-size: 0.7em;
+	width: 400px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}/*input box*/
+
+main{
+	text-align: center;
+}/*including everthing except footer*/
+
+h2{
+	border-bottom: 2px red dotted;
+	padding-bottom: 25px;
+	font-size: 3.5em;
+	/*font-family: 'Indie Flower', cursive;*/
+	font-family: 'Amatic SC', cursive;
+}
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}/*Google, Youtube...name of sites*/
+
+.well{
+	font-size: 1.3em;
+	text-align: left;
+	margin-left: 40px;
+}/*one line Google visit button and delete botton*/
+
+.btn-primary{
+	margin-top: 30px;
+	font-size: 1.5em;
+	font-family: 'Amatic SC', cursive;
+}/*submit botton*/
+.btn-primary:hover{
+	background-color: darksalmon;
+}
+
+.btn-default, .btn-danger{
+	text-decoration: none;
+	background-color: antiquewhite;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 6px;
+	font-size: 0.8em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}/*visit botton and delete botton*/
+.btn-danger:hover{
+	background-color: darkgoldenrod;
+}
+
+.btn-default:hover{
+	background-color: darkcyan;
+	color: white;
+}
+.btn-default{
+	color: cornflowerblue;
+}
+.btn-danger{
+	color: darkred;
+}
+.footer{
+	bottom: 10px;
+	float: right;
+}
